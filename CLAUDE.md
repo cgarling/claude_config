@@ -10,8 +10,8 @@
 
 # Julia versions
 
-- `julia` uses the LTS (1.10)
-- `julia +1` uses the current release (currently 1.12)
+- `julia` uses the current stable release (currently 1.12)
+- `julia +1.10` will use Julia 1.10
 
 # Debugging Julia code
 
@@ -39,7 +39,7 @@ when the MCP session cannot be reconfigured.
 - Use the local `Project.toml` environment when available. Revise, TestEnv,
   Cthulhu, and some other developer-oriented tools are in my global (fallback)
   environment.
-
+  
 - Do not bias decisions about packages based on what is already installed.
 
 - When adding new pacakges to a local project, also update the `[compat]`
